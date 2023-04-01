@@ -1,337 +1,336 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 html {
-    overflow-x: clip;
+  overflow-x: clip;
 }
 body {
-    font-family: 'IBM Plex Sans', sans-serif;
-    width: 100%;
-    overflow: hidden;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: row;
-    background-image: url('https://cdn.glitch.global/883230d6-2621-4f49-aa8b-b142db72b082/bg-main-mobile.png?v=1673534004274');
-    background-repeat: no-repeat;
-    background-position: top -240px right -200px;
+  font-family: "IBM Plex Sans", sans-serif;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: row;
+  background-image: url("https://cdn.glitch.global/883230d6-2621-4f49-aa8b-b142db72b082/bg-main-mobile.png?v=1673534004274");
+  background-repeat: no-repeat;
+  background-position: top -240px right -200px;
 }
 .equalizer {
-    margin: 40px 30px;
-    width: 100%;
+  margin: 40px 30px;
+  width: 100%;
 }
 .first-conteiner {
-    margin-top: 20px;
-    margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 30px;
 }
 .tablet-mode-background {
-    display: none;
+  display: none;
 }
 .headline-txt {
-    font-weight: 700;
-    width: 327px;
-    font-size: 40px;
-    letter-spacing: 0.45px;
-    line-height: 48px;
-    color: #191826;
+  font-weight: 700;
+  width: 327px;
+  font-size: 40px;
+  letter-spacing: 0.45px;
+  line-height: 48px;
+  color: #191826;
 }
 .text {
-    font-weight: 400;
-    line-height: 26px;
-    width: 327px;
-    margin-top: 25px;
-    color: #191826;
+  font-weight: 400;
+  line-height: 26px;
+  width: 327px;
+  margin-top: 25px;
+  color: #191826;
 }
 .second-conteiner {
-    width: 100%;
-    margin-top: 150px;
+  width: 100%;
+  margin-top: 150px;
 }
 .black-conteiner {
-    width: 100%;
-    height: 600px;
-    background-color: #191826;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  width: 100%;
+  height: 600px;
+  background-color: #191826;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .background {
-    width: 300px;
-    margin-top: -140px;
+  width: 300px;
+  margin-top: -140px;
 }
 .phone {
-    width: 208px;
-    position: absolute;
-    margin-top: -370px;
+  width: 208px;
+  position: absolute;
+  margin-top: -370px;
 }
 .orange-conteiner {
-    width: 100%;
-    height: 546px;
-    background-color: #FA7453;
-    border-radius: 12px;
-    position: absolute;
-    margin-top: -190px;
+  width: 100%;
+  height: 546px;
+  background-color: #fa7453;
+  border-radius: 12px;
+  position: absolute;
+  margin-top: -190px;
 }
 .orange-conteiner-display {
-    margin-left: 30px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 48px;
+  margin-left: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 48px;
 }
 .headline {
-    font-weight: 700;
-    width: 302px;
-    font-size: 32px;
-    line-height: 40px;
-    color: #FCFAF9;
+  font-weight: 700;
+  width: 302px;
+  font-size: 32px;
+  line-height: 40px;
+  color: #fcfaf9;
 }
 .desktop-mail {
-    display:none;
+  display: none;
 }
 .orange-conteiner-text {
-    font-weight: 400;
-    font-size: 18px;
-    width: 302px;
-    line-height: 28px;
-    color: #FCFAF9;
-    margin-top: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  width: 302px;
+  line-height: 28px;
+  color: #fcfaf9;
+  margin-top: 12px;
 }
 .price {
-    margin-top: 26px;
-    margin-left: 6px;
+  margin-top: 26px;
+  margin-left: 6px;
 }
 .dollar {
-    font-weight: 700;
-    font-size: 65px;
-    color: #FCFAF9;
+  font-weight: 700;
+  font-size: 65px;
+  color: #fcfaf9;
 }
 .month {
-    font-weight: 400;
-    font-size: 20px;
-    color: #FCFAF9;
-    margin: -55px 100px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fcfaf9;
+  margin: -55px 100px;
 }
 .ios-frame {
-    width: 296px;
-    height: 61px;
-    background-color: #191826;
-    margin-top: 110px;
-    border-radius: 12px;
-    margin-left: 6px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  width: 296px;
+  height: 61px;
+  background-color: #191826;
+  margin-top: 110px;
+  border-radius: 12px;
+  margin-left: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .android-frame {
-    width: 296px;
-    height: 61px;
-    background-color: #FCFAF9;
-    margin-top: 16px;
-    border-radius: 12px;
-    margin-left: 6px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  width: 296px;
+  height: 61px;
+  background-color: #fcfaf9;
+  margin-top: 16px;
+  border-radius: 12px;
+  margin-left: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .ios-text {
-    font-size: 18px;
-    color: #FCFAF9;
-    font-weight: 700;
-    letter-spacing: -0.18px;
+  font-size: 18px;
+  color: #fcfaf9;
+  font-weight: 700;
+  letter-spacing: -0.18px;
 }
 .ios-logo {
-    width: 17.08px;
+  width: 17.08px;
 }
 .ios-text-conteiner {
-    width: 40%;
-    margin-left: 20px;
-    margin-top: -23px;
+  width: 40%;
+  margin-left: 20px;
+  margin-top: -23px;
 }
 .ios-logo-conteiner {
-    width: 40%;
-    margin-right: 125px;
+  width: 40%;
+  margin-right: 125px;
 }
-  
+
 .android-text {
-    font-size: 18px;
-    color: #191826;
-    font-weight: 700;
-    letter-spacing: -0.18px;
+  font-size: 18px;
+  color: #191826;
+  font-weight: 700;
+  letter-spacing: -0.18px;
 }
 .android-logo {
-    width: 17.08px;
+  width: 17.08px;
 }
 .android-text-conteiner {
-    margin-left: 20px;
-    margin-top: -26px;
+  margin-left: 20px;
+  margin-top: -26px;
 }
 .android-logo-conteiner {
-    margin-right: 165px;
+  margin-right: 165px;
 }
 .last {
-    margin-left: 25.15px;
+  margin-left: 25.15px;
 }
 .last-img {
-    margin-top: 420px;
-    margin-bottom: 20px;
+  margin-top: 420px;
+  margin-bottom: 20px;
 }
 .tablet-black-background {
-    display: none;
+  display: none;
 }
 .last-text {
-    font-weight: 400;
-    color: #191826;
-    line-height: 26px;
-    width: 327px;
+  font-weight: 400;
+  color: #191826;
+  line-height: 26px;
+  width: 327px;
 }
 .email {
-    font-weight: 700;
-    font-size: 16px;
-    color: #191826;
+  font-weight: 700;
+  font-size: 16px;
+  color: #191826;
 }
 .socials {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    display: flex;
-    justify-content: space-between;
-    width: 100px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
 }
 .android-frame:hover {
-    cursor: pointer;
-    background-color: #FFB964;
+  cursor: pointer;
+  background-color: #ffb964;
 }
 .ios-frame:hover {
-    cursor: pointer;
-    background-color: #66E2DC;
+  cursor: pointer;
+  background-color: #66e2dc;
 }
-.facebook:hover, .instagram:hover, .twitter:hover {
-    cursor: pointer;
-    filter: invert(51%) sepia(93%) saturate(1192%) hue-rotate(328deg) brightness(104%) contrast(96%);
+.facebook:hover,
+.instagram:hover,
+.twitter:hover {
+  cursor: pointer;
+  filter: invert(51%) sepia(93%) saturate(1192%) hue-rotate(328deg)
+    brightness(104%) contrast(96%);
 }
-  
-  @media screen and (min-width: 768px) {
-    body {
-        background-image: url('https://cdn.glitch.global/883230d6-2621-4f49-aa8b-b142db72b082/bg-main-tablet.png?v=1673539158292');
-        background-position: top -240px right -100px;
-      
-    }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("https://cdn.glitch.global/883230d6-2621-4f49-aa8b-b142db72b082/bg-main-tablet.png?v=1673539158292");
+    background-position: top -240px right -100px;
+  }
+  .tablet-mode-background {
+    display: flex;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 66%;
+  }
+  .headline-txt {
+    margin-top: 40px;
+    width: 520px;
+    font-size: 64px;
+    line-height: 64px;
+  }
+  .text {
+    width: 514px;
+    font-size: 18px;
+  }
+  .equalizer-img {
+    margin-top: 40px;
+  }
+  .second-conteiner {
+    display: flex;
+    justify-content: center;
+  }
+  .black-conteiner {
+    margin-top: 100px;
+    width: 87%;
+  }
+  .orange-conteiner {
+    width: 399px;
+    margin-top: 240px;
+    margin-left: 32%;
+  }
+  .background {
+    display: none;
+  }
+  .tablet-black-background {
+    display: flex;
+    margin-top: -200px;
+  }
+  .phone {
+    margin-top: -350px;
+    margin-right: 40%;
+    width: 270px;
+  }
+  .last {
+    margin-top: -250px;
+  }
+  .socials {
+    position: absolute;
+    margin-top: -140px;
+    margin-left: 80%;
+  }
+  .email {
+    margin-bottom: 85px;
+  }
+  .last-text {
+    width: 366px;
+  }
+  @media screen and (min-width: 1440px) {
     .tablet-mode-background {
-        display: flex;
-        position: absolute;
-        margin-top: -30px;
-        margin-left: 66%;
-    }
-    .headline-txt {
-        margin-top: 40px;
-        width:520px;
-        font-size: 64px;
-        line-height: 64px;
-    }
-    .text {
-        width: 514px;
-        font-size: 18px;
-    }
-    .equalizer-img {
-        margin-top: 40px;
-    }
-    .second-conteiner {
-        display: flex;
-        justify-content: center;
-      
-    }
-    .black-conteiner {
-        margin-top: 100px;
-        width: 87%;
-    }
-    .orange-conteiner {
-        width: 399px;
-        margin-top: 240px;
-        margin-left: 32%;
-    }
-    .background {
-        display: none;
-    }
-    .tablet-black-background {
-        display: flex;
-        margin-top: -200px;
-    }
-    .phone {
-        margin-top: -350px;
-        margin-right: 40%;
-        width: 270px;
-    }
-    .last {
-        margin-top: -250px;
-    }
-    .socials {
-        position: absolute;
-        margin-top: -140px;
-        margin-left: 80%;
-    }
-    .email {
-        margin-bottom: 85px;
-    }
-    .last-text {
-        width: 366px;
-    }
-@media screen and (min-width: 1440px) {
-    .tablet-mode-background {
-        margin-left: 79%;
+      margin-left: 79%;
     }
     body {
-        background-image: url('https://cdn.glitch.global/883230d6-2621-4f49-aa8b-b142db72b082/bg-main-desktop.png?v=1673541378362');
-        background-repeat: no-repeat;
-        background-position: top -240px right -200px;
+      background-image: url("https://cdn.glitch.global/883230d6-2621-4f49-aa8b-b142db72b082/bg-main-desktop.png?v=1673541378362");
+      background-repeat: no-repeat;
+      background-position: top -240px right -200px;
     }
     .equalizer {
-        margin-left: 200px;
+      margin-left: 200px;
     }
     .headline-txt {
-        width: 1015px;
-        font-size: 88px;
-        line-height: 88px;
-        margin-left: 165px;
+      width: 1015px;
+      font-size: 88px;
+      line-height: 88px;
+      margin-left: 165px;
     }
     .text {
-        width: 825px;
-        font-size: 20px;
-        line-height: 34px;
-        margin-left: 165px;
+      width: 825px;
+      font-size: 20px;
+      line-height: 34px;
+      margin-left: 165px;
     }
     .black-conteiner {
-        width: 71%;
-        height: 600px;
+      width: 71%;
+      height: 600px;
     }
     .tablet-black-background {
-        margin-top: -110px;
-        margin-left: -30%;
+      margin-top: -110px;
+      margin-left: -30%;
     }
     .last-img {
-        margin-left: 65%;
+      margin-left: 65%;
     }
     .last-text {
-        margin-left: 180%;
-        margin-top: -55px;
-        }
+      margin-left: 180%;
+      margin-top: -55px;
+    }
     .email {
-        display: none;
-        }
+      display: none;
+    }
     .desktop-mail {
-        display: grid;
-        margin-top: -26px;
-        margin-left: 20px;
-        margin-bottom: 100px;
+      display: grid;
+      margin-top: -26px;
+      margin-left: 20px;
+      margin-bottom: 100px;
     }
     .socials {
-        margin-top: -170px;
-        margin-left: 78%
+      margin-top: -170px;
+      margin-left: 78%;
     }
-        
-        }
+  }
 }
